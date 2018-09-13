@@ -1,0 +1,40 @@
+{
+  "name": "loginpassport",
+  "version": "1.0.0",
+  "description": "simple authentication system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asshidiq/loginPassport.git"
+  },
+  "keywords": [
+    "login",
+    "authentication",
+    "passport"
+  ],
+  "author": "Adam Asshidiq",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/asshidiq/loginPassport/issues"
+  },
+  "homepage": "https://github.com/asshidiq/loginPassport#readme"
+}
